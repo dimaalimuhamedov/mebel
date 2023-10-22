@@ -1,0 +1,391 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 800px;
+    background-image: url(./img/Img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navb {
+    height: 80px;
+}
+
+.navb-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.navb-select {
+    background: none;
+    border: 0;
+    color: #fff;
+    outline: none;
+}
+
+.navb-select2 {
+    background: none;
+    border: 0;
+    color: #fff;
+    outline: none;
+}
+
+.navb-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+
+}
+
+.navb-btn {
+    color: #381DDB;
+    ;
+    background-color: #fff;
+    border: 0;
+    padding: 18px 34px;
+    margin-left: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.navb-menu {
+    display: flex;
+    align-items: center;
+    margin-bottom: -20px;
+    gap: 50px;
+    color: #fff;
+    ;
+}
+
+.header-content {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.header-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    max-width: 970px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.mussic {
+    color: #FC5252;
+    opacity: 0.7;
+}
+
+.header-subtitle {
+    max-width: 970px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.header-btn {
+    margin-left: 500px;
+    background: #FC5252;
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    padding: 18px 34px;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.header-play {
+    color: #fff;
+    margin-top: 40px;
+
+}
+
+.header-img {
+    margin-bottom: -15px;
+    margin-top: 40px;
+
+}
+
+.header-img2 {
+    width: 1200px;
+    padding-top: 90px;
+
+}
+
+.header-end {}
+
+.catigory {
+    margin-top: 120px;
+}
+
+.catigory-title {
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.catigory-row {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.catigory-card {
+    width: 100%;
+    max-width: 370px;
+    padding: 90px 60px 36px;
+    background: #f1e3d1;
+    border-radius: 24px;
+    color: black;
+
+}
+
+.catigory-card:hover {
+    background-color: #381DDB;
+    color: #fff;
+}
+
+.catigory-card-title {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 38px;
+    font-style: normal;
+}
+
+.catigory-card-text {
+    font-family: 'Montserrat';
+    font-weight: 400px;
+    line-height: 24px;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+.about-text {
+    max-width: 570px;
+}
+
+.about-right {
+    margin-top: -500px;
+    margin-left: 700px;
+}
+
+.about-btn {
+    border: 0;
+    border-radius: 8px;
+    padding: 18px 34px;
+    background: rgba(56, 29, 219, 1);
+    color: #fff;
+}
+
+.singer {
+    margin-top: 150px;
+}
+
+.singer-img {
+    margin-left: 550px;
+    max-width: 670px;
+}
+
+.singer-right {
+    margin-top: -500px;
+    margin-left: 50px;
+    max-width: 470px;
+}
+
+.singer-text {}
+
+.singer-btn {
+    border: 0;
+    border-radius: 8px;
+    padding: 18px 34px;
+    background: rgba(56, 29, 219, 1);
+    color: #fff;
+}
+
+.even-text {
+    font-family: 'Montserrat';
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.choose-text {
+    display: flex;
+    justify-content: center;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 50px;
+}
+
+.card1 {
+    text-align: center;
+    max-width: 370px;
+    padding: 90px 60px 36px;
+    background: #fff;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 5px black;
+
+}
+
+.card2 {
+    text-align: center;
+    max-width: 370px;
+    padding: 90px 60px 36px;
+    background: #fff;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 5px black;
+        border-top: 2px solid red;
+
+}
+.card3-title{
+    color: red;
+    margin-top: -90px;
+    text-align: center;
+}
+.card2-title{
+    color: rgba(56, 29, 219, 1);
+    margin-top: -90px;
+    text-align: center;
+}
+.card3-title2{
+    color: red;
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card2-title2{
+    color: rgba(56, 29, 219, 1);
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.card3 {
+    text-align: center;
+    max-width: 370px;
+    padding: 90px 60px 36px;
+    background: #fff;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 5px black;
+    border-top:  2px solid rgba(56, 29, 219, 1);
+}
+
+.card1-title2 {
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card1-title {
+    margin-top: -90px;
+    text-align: center;
+
+
+}
+.card1-text{
+
+}
+.card1-btn{
+    border: 2px solid rgba(56, 29, 219, 1);
+    padding: 18px 34px;
+    border-radius: 10px;
+}
+.card1-subtitle{
+    color: rgba(34, 34, 34, 1);
+}
+.logo-content{
+    text-align: center;
+}
+.logo-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+}
+.logo-btn{
+    margin-top: 30px;
+    color: #fff;
+    background-color: rgba(56, 29, 219, 1);
+    padding: 18px 34px;
+    border-radius: 10px ;
+    border:0;
+}
+.test-title{
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    margin-top: 60px;
+}
